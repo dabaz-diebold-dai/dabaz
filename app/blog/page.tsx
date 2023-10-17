@@ -26,7 +26,7 @@ export default function Blog() {
               href={post.href}
               className="flex flex-col space-y-1 mb-4"
             >
-              <p className="text-neutral-900 tracking-tight font-medium text-lg">
+              <p className="text-neutral-900 tracking-tight font-medium text-lg underline">
                 {post.name}
               </p>
               <p className="text-neutral-600">

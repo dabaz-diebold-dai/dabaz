@@ -1,4 +1,5 @@
 import Navbar from "@dabaz/components/sections/Navbar";
+import Image from "next/image";
 
 export default function IOS17() {
   return (
@@ -6,7 +7,7 @@ export default function IOS17() {
       <Navbar />
       <div className="max-w-3xl">
         <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl">
-          What’s new in iOS 17 Developer Beta?
+          What&rsquo;s new in iOS 17 Developer Beta?
         </h1>
         <div className="flex justify-between items-center mt-2 mb-2 text-sm max-w-[650px]">
           <p className="text-lg text-neutral-600 dark:text-neutral-400">
@@ -16,12 +17,14 @@ export default function IOS17() {
         <div className="relative w-full py-4 bg-white md:max-w-3xl md:mx-auto lg:max-w-4xl lg:pt-8 lg:pb-14">
           <div className="mt-8 prose prose-neutral mx-auto lg:prose-lg">
             <p>
-              Apple just rolled out the iOS 17 Developer Beta, which I immediately installed and used. Let's take a look at the new features of iOS 17 that I experienced during my usage.
+              Apple just rolled out the iOS 17 Developer Beta, which I immediately installed and used. Let&rsquo;s take a look at the new features of iOS 17 that I experienced during my usage.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/ios-17-preview.png"
                 alt="iOS 17 Preview"
+                width={1200}
+                height={630}
               />
               <figcaption>
                 iOS 17 Preview
@@ -96,12 +99,14 @@ export default function IOS17() {
               Transcription to voice messages
             </h3>
             <p>
-              As we can see, the voice message that I sent is already transcribe to text. It’s so fast that it turned into text as soon as I sent it out.
+              As we can see, the voice message that I sent is already transcribe to text. It&rsquo;s so fast that it turned into text as soon as I sent it out.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/auto-transcription.jpg"
                 alt="Auto transcription"
+                width={1170}
+                height={708}
               />
               <figcaption>
                 Auto transcription
@@ -114,9 +119,11 @@ export default function IOS17() {
               After I touched this little button, there is a brand new menu. On the menu, there are basic options of iOS and more options for apps that you installed.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/new-menu.jpg"
                 alt="New menu"
+                width={2340}
+                height={2532}
               />
               <figcaption>
                 New menu
@@ -126,12 +133,14 @@ export default function IOS17() {
               Check In
             </h3>
             <p>
-              “Let your friend know you’ve arrived with Check In”. Check In simply share your full information or limited information of your location to your friends when you are using this function.
+              “Let your friend know you&rsquo;ve arrived with Check In”. Check In simply share your full information or limited information of your location to your friends when you are using this function.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/check-in.webp"
                 alt="Check In"
+                width={1960}
+                height={1306}
               />
               <figcaption>
                 Check In
@@ -144,9 +153,11 @@ export default function IOS17() {
               Now you can remove the background of any images and use it as a sticker to send as iMessage.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/stickers.jpg"
                 alt="Stickers"
+                width={1170}
+                height={1192}
               />
               <figcaption>
                 Stickers
@@ -159,9 +170,11 @@ export default function IOS17() {
               In any input areas, iOS 17 will help you to complete your input automatically.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/auto-completion.jpg"
                 alt="Auto completion"
+                width={1170}
+                height={1179}
               />
               <figcaption>
                 Auto completion
@@ -177,6 +190,8 @@ export default function IOS17() {
               <img
                 src="/images/blog/ios-17-developer-beta/contact-poster.jpeg"
                 alt="Contact Poster & Contact Photo"
+                width={3510}
+                height={2532}
               />
               <figcaption>
                 Contact Poster & Contact Photo
@@ -189,9 +204,11 @@ export default function IOS17() {
               iOS 17 brings a pair of new wallpapers.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/new-wallpapers.jpeg"
                 alt="New wallpapers"
+                width={2340}
+                height={2532}
               />
               <figcaption>
                 New wallpapers
@@ -231,9 +248,11 @@ export default function IOS17() {
               The playing now view is more beautiful now.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/playing-now.jpg"
                 alt="Playing now"
+                width={1170}
+                height={462}
               />
               <figcaption>
                 Playing now
@@ -246,18 +265,22 @@ export default function IOS17() {
               StandBy is a brand new function. It will turn on when iPhone is stationary in landscape and while on power. It could show information like widgets, a photo frame or a clock.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/standby.webp"
                 alt="StandBy"
+                width={1599}
+                height={900}
               />
               <figcaption>
                 StandBy
               </figcaption>
             </figure>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/standby-settings.jpg"
                 alt="StandBy settings"
+                width={1170}
+                height={973}
               />
               <figcaption>
                 StandBy Settings
@@ -273,7 +296,7 @@ export default function IOS17() {
               Siri
             </h2>
             <p>
-              Now you can use only “Siri” to call out Siri.
+              Now you can use only &ldquo;Siri&rdquo; to call out Siri.
             </p>
             <h2>
               Safari
@@ -291,9 +314,11 @@ export default function IOS17() {
               Private Browsing now needs Face ID or Touch ID to unlock, which is more private.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/private-browsing.jpg"
                 alt="Private Browsing"
+                width={1170}
+                height={1170}
               />
               <figcaption>
                 Private Browsing
@@ -312,9 +337,11 @@ export default function IOS17() {
               Now passwords can be shared with family members in your iCloud family.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/family-passwords.jpg"
                 alt="Family passwords"
+                width={1170}
+                height={1214}
               />
               <figcaption>
                 Family passwords
@@ -324,12 +351,14 @@ export default function IOS17() {
               NameDrop
             </h2>
             <p>
-              NameDrop change the way that people exchange contact informations. Hold the top of your iPhone near the top of someone else’s iPhone to share your contact.
+              NameDrop change the way that people exchange contact informations. Hold the top of your iPhone near the top of someone else&rsquo;s iPhone to share your contact.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/namedrop.jpg"
                 alt="NameDrop"
+                width={1600}
+                height={900}
               />
               <figcaption>
                 NameDrop
@@ -345,12 +374,14 @@ export default function IOS17() {
               Live Voicemail
             </h2>
             <p>
-              When you don’t pick up a phone right away, others’ voicemail will be transcribed into text and be displayed on the screen in real time.
+              When you don&rsquo;t pick up a phone right away, others&rsquo; voicemail will be transcribed into text and be displayed on the screen in real time.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/live-voicemail.webp"
                 alt="Live Voicemail"
+                width={2000}
+                height={1000}
               />
               <figcaption>
                 Live Voicemail
@@ -360,12 +391,14 @@ export default function IOS17() {
               Some small UI changes
             </h2>
             <p>
-              What’s more, there are some small UI changes in the iOS 17. Such as the playing now view in the control center.
+              What&rsquo;s more, there are some small UI changes in the iOS 17. Such as the playing now view in the control center.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/control-center.jpg"
                 alt="Playing Now"
+                width={518}
+                height={524}
               />
               <figcaption>
                 Playing Now
@@ -373,7 +406,7 @@ export default function IOS17() {
             </figure>
             <hr />
             <p>
-              Besides, I found some more small fixes that I didn't mention in this post.
+              Besides, I found some more small fixes that I didn&rsquo;t mention in this post.
             </p>
             <p>
               Thanks for your reading.
