@@ -1,19 +1,15 @@
 import Navbar from '@dabaz/components/sections/Navbar'
 import './globals.css'
+import { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL('https://dabaz.me'),
   title: {
     default: 'DabAZ',
     template: '%s | DabAZ'
   },
   description: 'About DabAZ',
-  referrer: 'origin-when-cross-origin',
-  keywords: ['DabAZ', 'Personal Website'],
-  authors: [{ name: 'DabAZ' }],
-  colorScheme: 'light',
-  creator: 'DabAZ',
 
-  metadataBase: new URL('https://dabaz.me'),
   alternates: {
     canonical: '/',
     languages: {
@@ -41,11 +37,9 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
-    nocache: false,
     googleBot: {
       index: true,
-      follow: false,
-      noimageindex: false,
+      follow: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
@@ -61,7 +55,7 @@ export const metadata = {
   manifest: 'https://dabaz.me/manifest.json',
 
   twitter: {
-    card: 'website',
+    card: 'summary_large_image',
     title: 'DabAZ',
     description: 'About DabAZ',
     creator: '@dabaz_official',
