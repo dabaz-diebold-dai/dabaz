@@ -187,7 +187,7 @@ export default function IOS17() {
               Now you can customize your Contact Posters and your contact photo. These two will be used in multiple functions.
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/contact-poster.jpg"
                 alt="Contact Poster & Contact Photo"
                 width={3510}

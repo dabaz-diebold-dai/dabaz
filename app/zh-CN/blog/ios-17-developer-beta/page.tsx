@@ -187,7 +187,7 @@ export default function IOS17CN() {
               你可以定制你的Contact Posters，以及你的头像，这些将在多个场景下被使用。
             </p>
             <figure>
-              <img
+              <Image
                 src="/images/blog/ios-17-developer-beta/contact-poster.jpg"
                 alt="Contact Poster & Contact Photo"
                 width={3510}
