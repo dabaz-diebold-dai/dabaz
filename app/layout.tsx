@@ -1,3 +1,4 @@
+import Navbar from '@dabaz/components/sections/Navbar'
 import './globals.css'
 
 export const metadata = {
@@ -65,7 +66,7 @@ export const metadata = {
     description: 'About DabAZ',
     creator: '@dabaz_official',
     images: {
-      url: 'https://dabaz/twitter-image.png',
+      url: 'https://dabaz.me/twitter-image.png',
       alt: 'About DabAZ',
     },
   },
@@ -77,8 +78,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='h-full bg-neutral-950 text-base antialiased'>
-      <body className='flex min-h-full flex-col'>{children}</body>
+    <html lang="en" className='h-full bg-white text-neutral-900 dark:bg-neutral-900 dark:text-white'>
+      <body className='antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto'>
+        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+          <Navbar />
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
