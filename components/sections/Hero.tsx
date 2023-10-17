@@ -1,5 +1,3 @@
-import { X } from "./X";
-
 export default function Hero () {
   return (
     <div className="max-w-3xl">
@@ -7,10 +5,10 @@ export default function Hero () {
         Hey, I am DabAZ 👋
       </h1>
       <p className="mt-6 text-lg text-neutral-600">
-        I am a bug hunter, musician, designer and front-end development hobbyist. I work as a freelance bug hunter currently.
+        I am a bug hunter, musician, designer and front-end development hobbyist. I work as a freelance bug hunter and designer currently.
       </p>
       <p className="mt-4 text-lg text-neutral-600">
-        My X (previously Twitter) is <X />.
+        I create different kinds of contents.
       </p>
     </div>
   )
