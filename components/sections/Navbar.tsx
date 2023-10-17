@@ -12,6 +12,9 @@ const navItems = {
   '/blog': {
     name: 'Blog',
   },
+  '/uses': {
+    name: 'Uses',
+  },
   '/zh-CN': {
     name: '中文',
   },

@@ -12,6 +12,9 @@ const navItemsCN = {
   '/zh-CN/blog': {
     name: '博客',
   },
+  '/zh-CN/uses': {
+    name: '工具',
+  },
   '/': {
     name: 'English',
   },
