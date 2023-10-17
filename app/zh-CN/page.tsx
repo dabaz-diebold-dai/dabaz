@@ -1,4 +1,5 @@
 import Gallery from "@dabaz/components/sections/Gallery";
+import HomeLinksCN from "@dabaz/components/sections/zh-CN/HomeLinks";
 import NavbarCN from "@dabaz/components/sections/zh-CN/Navbar";
 
 function ArrowIcon() {
@@ -26,45 +27,11 @@ export default function CN() {
         <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl">
           你好，我是DabAZ 👋
         </h1>
-        <ul className="flex flex-col md:flex-row mt-4 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
-          <li>
-            <a
-              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://twitter.com/dabaz_official"
-            >
-              <ArrowIcon />
-              <p className="h-7 ml-2">关注我的X (前Twitter)</p>
-            </a>
-          </li>
-          <li>
-            <a
-              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://instagram.com/dabaz_official"
-            >
-              <ArrowIcon />
-              <p className="h-7 ml-2">关注我的Instagram</p>
-            </a>
-          </li>
-          <li>
-            <a
-              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
-              rel="noopener noreferrer"
-              target="_blank"
-              href="mailto:dabazofficial@gmail.com"
-            >
-              <ArrowIcon />
-              <p className="h-7 ml-2">发送邮件</p>
-            </a>
-          </li>
-        </ul>
         <p className="mt-6 text-lg text-neutral-700">
           我是一名白帽黑客、音乐人、设计师，同时也热衷于前端开发。我的数字领域之旅由创造力、技术洞察力和持续的学习欲望共同推动。
         </p>
         <Gallery />
+        <HomeLinksCN />
         <p className="mt-4 text-lg text-neutral-700">
           在网络安全领域，我身为一名白帽黑客，协助各组织强化防护措施，确保他们的数字资产不受侵犯。代码与安全间的互动令我着迷，每个我参与的项目都是向着让数字世界更安全迈进的一步。
         </p>

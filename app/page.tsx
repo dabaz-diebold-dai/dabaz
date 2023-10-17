@@ -1,4 +1,5 @@
 import Gallery from "@dabaz/components/sections/Gallery";
+import HomeLinks from "@dabaz/components/sections/HomeLinks";
 import Navbar from "@dabaz/components/sections/Navbar";
 
 function ArrowIcon() {
@@ -26,45 +27,11 @@ export default function Home() {
         <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl">
           Hey, I am DabAZ 👋
         </h1>
-        <ul className="flex flex-col md:flex-row mt-4 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
-          <li>
-            <a
-              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://twitter.com/dabaz_official"
-            >
-              <ArrowIcon />
-              <p className="h-7 ml-2">Follow me on X (Previously Twitter)</p>
-            </a>
-          </li>
-          <li>
-            <a
-              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://instagram.com/dabaz_official"
-            >
-              <ArrowIcon />
-              <p className="h-7 ml-2">Follow me on Instagram</p>
-            </a>
-          </li>
-          <li>
-            <a
-              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
-              rel="noopener noreferrer"
-              target="_blank"
-              href="mailto:dabazofficial@gmail.com"
-            >
-              <ArrowIcon />
-              <p className="h-7 ml-2">Send me a email</p>
-            </a>
-          </li>
-        </ul>
         <p className="mt-6 text-lg text-neutral-700">
           I’m an ethical hacker, musician, designer, and a frontend development enthusiast. My journey through the digital realm is fueled by a blend of creativity, technical acumen, and a perpetual desire for learning.
         </p>
         <Gallery />
+        <HomeLinks />
         <p className="mt-4 text-lg text-neutral-700">
           In the cybersecurity domain, I operate as an ethical hacker, assisting organizations in fortifying their defenses and ensuring their digital assets remain unbreachable. The dance between code and security intrigues me, and each project I undertake is a step towards making the digital world a safer place.
         </p>
