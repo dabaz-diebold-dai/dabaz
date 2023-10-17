@@ -201,7 +201,7 @@ export default function IOS17() {
               A pair of new wallpapers
             </h2>
             <p>
-              iOS 17 brings a pair of new wallpapers.
+              iOS 17 Developer Beta brings a pair of new wallpapers.
             </p>
             <figure>
               <Image
