@@ -7,13 +7,13 @@ import { LayoutGroup, motion } from 'framer-motion';
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: 'Home',
   },
   '/blog': {
-    name: 'blog',
+    name: 'Blog',
   },
-  '/guestbook': {
-    name: 'guestbook',
+  '/zh-CN': {
+    name: '中文',
   },
 };
 
@@ -45,7 +45,7 @@ export default function Navbar() {
                       }
                     )}
                   >
-                    <span className="relative py-1 px-2">
+                    <span className="relative py-1 px-2 font-medium">
                       {name}
                       {path === pathname ? (
                         <motion.div
