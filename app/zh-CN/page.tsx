@@ -49,6 +49,17 @@ export default function CN() {
               <p className="h-7 ml-2">关注我的Instagram</p>
             </a>
           </li>
+          <li>
+            <a
+              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="mailto:dabazofficial@gmail.com"
+            >
+              <ArrowIcon />
+              <p className="h-7 ml-2">发送邮件</p>
+            </a>
+          </li>
         </ul>
         <p className="mt-6 text-lg text-neutral-700">
           我是一名白帽黑客、音乐人、设计师，同时也热衷于前端开发。我的数字领域之旅由创造力、技术洞察力和持续的学习欲望共同推动。

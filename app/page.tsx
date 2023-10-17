@@ -49,6 +49,17 @@ export default function Home() {
               <p className="h-7 ml-2">Follow me on Instagram</p>
             </a>
           </li>
+          <li>
+            <a
+              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="mailto:dabazofficial@gmail.com"
+            >
+              <ArrowIcon />
+              <p className="h-7 ml-2">Send me a email</p>
+            </a>
+          </li>
         </ul>
         <p className="mt-6 text-lg text-neutral-700">
           I’m an ethical hacker, musician, designer, and a frontend development enthusiast. My journey through the digital realm is fueled by a blend of creativity, technical acumen, and a perpetual desire for learning.
