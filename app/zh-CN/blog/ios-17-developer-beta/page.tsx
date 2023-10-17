@@ -188,7 +188,7 @@ export default function IOS17CN() {
             </p>
             <figure>
               <img
-                src="/images/blog/ios-17-developer-beta/contact-poster.jpeg"
+                src="/images/blog/ios-17-developer-beta/contact-poster.jpg"
                 alt="Contact Poster & Contact Photo"
                 width={3510}
                 height={2532}
@@ -205,7 +205,7 @@ export default function IOS17CN() {
             </p>
             <figure>
               <Image
-                src="/images/blog/ios-17-developer-beta/new-wallpapers.jpeg"
+                src="/images/blog/ios-17-developer-beta/new-wallpapers.jpg"
                 alt="New wallpapers"
                 width={2340}
                 height={2532}
