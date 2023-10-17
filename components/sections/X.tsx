@@ -22,13 +22,13 @@ export function X() {
       <HoverCardContent className="w-80">
         <div className="flex justify-between space-x-4">
           <Avatar>
-            <AvatarImage src="/dabaz.png" />
-            <AvatarFallback>VC</AvatarFallback>
+            <AvatarImage src="/twitter-profile-image.jpeg" />
+            <AvatarFallback>DAB</AvatarFallback>
           </Avatar>
           <div className="space-y-1">
             <h4 className="text-sm font-semibold">@dabaz_official</h4>
             <p className="text-sm">
-              G / Bug Hunter / Musician / UI Design and Front-end Development Hobbyist G / 白帽黑客 / 音乐人 / UI设计和前端开发爱好者
+              G / Bug Hunter / Musician / UI Design and Front-end Development Hobbyist
             </p>
             <div className="flex items-center pt-2">
               <CalendarDays className="mr-2 h-4 w-4 opacity-70" />{" "}
