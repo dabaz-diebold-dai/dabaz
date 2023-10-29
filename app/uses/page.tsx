@@ -1,4 +1,8 @@
+import Image from "next/image";
+
 import Navbar from "@dabaz/components/sections/Navbar";
+import Arc from "@dabaz/public/images/uses/arc.png"
+import ChatGPT from "@dabaz/public/images/uses/chatgpt.png"
 
 export default function Uses() {
   return (
@@ -11,13 +15,36 @@ export default function Uses() {
         <p className="mt-6 text-lg text-neutral-700">
           Here's what tech I'm currently using for coding, videos, music, and gaming.
         </p>
-        <div className="prose prose-neutral dark:prose-invert">
+        <div>
           <h2 className="mt-6 font-display text-xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-2xl">
-            Laptop
+            Software
           </h2>
-          <ul className="mt-4">
-            <li>
-              14" Macbook Pro with M1 Pro (2021)
+          <ul className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-x-6">
+            <li className="bg-neutral-100 py-4 px-16 rounded-xl justify-center items-center mx-auto">
+              <Image
+                src={Arc}
+                alt="Arc browser"
+                className="h-16 w-auto"
+              />
+              <p className="uppercase p-1 rounded-lg border border-neutral-200 text-xs mt-4">
+                Browser
+              </p>
+              <p className="text-md mt-2 text-center">
+                Arc
+              </p>
+            </li>
+            <li className="bg-neutral-100 py-4 px-16 rounded-xl justify-center items-center mx-auto">
+              <Image
+                src={ChatGPT}
+                alt="Arc browser"
+                className="h-16 w-32"
+              />
+              <p className="uppercase p-1 rounded-lg border border-neutral-200 text-xs mt-4">
+                AI
+              </p>
+              <p className="text-md mt-2 text-center">
+                ChatGPT
+              </p>
             </li>
             <li>
               Keychron Q1
