@@ -21,13 +21,13 @@ export default function HeroHeader() {
               Freelancer
             </p>
             <HomeLinks />
-            <div className="mt-10 flex items-center justify-center gap-x-4">
+            <div className="mt-6 flex items-center justify-center mx-auto gap-x-4">
               <a
                 href="mailto:dabazofficial@gmail.com"
-                className="rounded-xl bg-neutral-800 px-8 py-2.5 text-sm font-medium text-neutral-50 shadow-sm hover:bg-neutral-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black transition-colors flex items-center"
+                className="rounded-xl bg-neutral-800 px-3 sm:px-6 py-2.5 text-sm font-medium text-neutral-50 shadow-sm hover:bg-neutral-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black transition-colors flex items-center"
               >
                 Contact me
-                <EnvelopeIcon className="h-6 w-auto ml-2" />
+                <EnvelopeIcon className="h-5 w-auto ml-2 hidden sm:flex" />
               </a>
               or
               <CopyButton />
