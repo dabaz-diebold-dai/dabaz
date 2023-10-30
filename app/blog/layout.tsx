@@ -1,30 +1,30 @@
-import './globals.css'
+import '../globals.css'
 import { Metadata } from 'next'
 import Navbar from '@dabaz/components/sections/Navbar'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.dabaz.me'),
   title: {
-    default: 'DabAZ',
+    default: 'Blog',
     template: '%s | DabAZ'
   },
-  description: 'About DabAZ.',
+  description: 'Learn what DabAZ loves and writes about.',
 
   alternates: {
     canonical: '/',
   },
 
   openGraph: {
-    title: 'DabAZ',
-    description: 'About DabAZ.',
-    url: 'https://www.dabaz.me',
+    title: 'Blog | DabAZ',
+    description: 'Learn what DabAZ loves and writes about.',
+    url: 'https://www.dabaz.me/blog',
     siteName: 'DabAZ',
     images: [
       {
         url: 'https://www.dabaz.me/og.png',
         width: 1920,
         height: 1280,
-        alt: 'About DabAZ.',
+        alt: 'Learn what DabAZ loves and writes about.',
       },
     ],
     locale: 'en_US',
@@ -53,12 +53,12 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'DabAZ',
-    description: 'About DabAZ.',
+    title: 'Blog | DabAZ',
+    description: 'Learn what DabAZ loves and writes about.',
     creator: '@dabaz_official',
     images: {
       url: 'https://www.dabaz.me/twitter-image.png',
-      alt: 'About DabAZ.',
+      alt: 'Learn what DabAZ loves and writes about.',
     },
   },
 }

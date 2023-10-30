@@ -11,30 +11,14 @@ const navItems = {
     name: 'Home',
     Icon: HomeIcon,
   },
-  '/projects': {
-    name: 'Projects',
-    Icon: Squares2X2Icon,
+  '/stack': {
+    name: 'Stack',
+    Icon: RectangleStackIcon,
   },
   '/blog': {
     name: 'Blog',
     Icon: PencilIcon,
   },
-  '/store': {
-    name: 'Store',
-    Icon: ShoppingBagIcon,
-  },
-  '/stack': {
-    name: 'Stack',
-    Icon: RectangleStackIcon,
-  },
-  '/about': {
-    name: 'About',
-    Icon: UserIcon,
-  },
-  '/contact': {
-    name: 'Contact',
-    Icon: EnvelopeIcon,
-  }
 }
 
 function Logo() {
