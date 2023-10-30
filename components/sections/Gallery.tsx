@@ -8,7 +8,7 @@ import train from 'public/images/home/train.jpg';
 
 export default function Gallery() {
   return (
-    <div className="columns-2 sm:columns-3 gap-4 my-8">
+    <div className="columns-2 sm:columns-3 gap-4 mb-8">
       <div className="relative h-40 mb-4">
         <Image
           alt="Me shooting a picture for promoting the music video"
