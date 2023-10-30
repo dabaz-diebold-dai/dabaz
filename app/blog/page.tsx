@@ -11,7 +11,6 @@ const posts = [
 export default function Blog() {
   return (
     <main className="w-full flex-auto">
-      <Navbar />
       <div className="max-w-3xl">
         <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl">
           My personal blog 📒

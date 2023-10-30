@@ -1,9 +1,10 @@
-import Navbar from '@dabaz/components/sections/Navbar'
 import './globals.css'
 import { Metadata } from 'next'
+import { GeistSans, GeistMono } from 'geist/font'
+import Navbar from '@dabaz/components/sections/Navbar'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://dabaz.me'),
+  metadataBase: new URL('https://www.dabaz.me'),
   title: {
     default: 'DabAZ',
     template: '%s | DabAZ'
@@ -20,11 +21,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'DabAZ',
     description: 'About DabAZ',
-    url: 'https://dabaz.me',
+    url: 'https://www.dabaz.me',
     siteName: 'DabAZ',
     images: [
       {
-        url: 'https://dabaz.me/og.png',
+        url: 'https://www.dabaz.me/og.png',
         width: 1920,
         height: 1280,
         alt: 'About DabAZ',
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     apple: '/icons/apple-icon.png',
   },
 
-  manifest: 'https://dabaz.me/manifest.json',
+  manifest: 'https://www.dabaz.me/manifest.json',
 
   twitter: {
     card: 'summary_large_image',
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
     description: 'About DabAZ',
     creator: '@dabaz_official',
     images: {
-      url: 'https://dabaz.me/twitter-image.png',
+      url: 'https://www.dabaz.me/twitter-image.png',
       alt: 'About DabAZ',
     },
   },
@@ -72,8 +73,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='h-full bg-white text-neutral-900 dark:bg-neutral-900 dark:text-white'>
-      <body className='antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto'>
+    <html lang="en" className='text-black bg-white dark:text-white dark:bg-[#111010]'>
+      <body className='antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto'>
+        <Navbar />
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           {children}
         </main>
