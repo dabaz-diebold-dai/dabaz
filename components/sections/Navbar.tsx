@@ -4,22 +4,8 @@ import clsx from 'clsx';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { LayoutGroup, motion } from 'framer-motion';
-import { EnvelopeIcon, HomeIcon, PencilIcon, RectangleStackIcon, ShoppingBagIcon, Squares2X2Icon, UserIcon } from '@heroicons/react/24/outline';
 
-const navItems = {
-  '/': {
-    name: 'Home',
-    Icon: HomeIcon,
-  },
-  '/stack': {
-    name: 'Stack',
-    Icon: RectangleStackIcon,
-  },
-  '/blog': {
-    name: 'Blog',
-    Icon: PencilIcon,
-  },
-}
+import { navItems } from '@dabaz/components/Data';
 
 export default function Navbar() {
   let pathname = usePathname() || '/';
@@ -36,7 +22,7 @@ export default function Navbar() {
               {Object.entries(navItems).map(([path, { name, Icon }]) => {
                 const isActive = path === pathname;
                 return (
-                  <a
+                  <Link
                     key={path}
                     href={path}
                     className={clsx(
@@ -61,7 +47,7 @@ export default function Navbar() {
                         />
                       ) : null}
                     </span>
-                  </a>
+                  </Link>
                 );
               })}
             </div>
