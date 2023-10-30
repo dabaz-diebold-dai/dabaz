@@ -1,5 +1,4 @@
-import Gallery from "@dabaz/components/sections/Gallery";
-import HomeLinks from "@dabaz/components/sections/HomeLinks";
+import HeroHeader from "@dabaz/components/sections/HeroHeader";
 
 function ArrowIcon() {
   return (
@@ -21,15 +20,8 @@ function ArrowIcon() {
 export default function Home() {
   return (
     <main className="w-full flex-auto">
+      <HeroHeader />
       <div className="max-w-3xl">
-        <Gallery />
-        <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl dark:text-neutral-50">
-          DabAZ / Diebold Dai
-        </h1>
-        <h1 className="font-display text-xl font-medium tracking-tight text-neutral-700 dark:text-neutral-300 [text-wrap:balance] sm:text-2xl">
-          Freelancer
-        </h1>
-        <HomeLinks />
         <p className="mt-6 text-lg text-neutral-700 dark:text-neutral-300">
           I’m an ethical hacker, musician, designer, and a frontend development enthusiast. My journey through the digital realm is fueled by a blend of creativity, technical acumen, and a perpetual desire for learning.
         </p>

@@ -1,5 +1,7 @@
-import './globals.css'
 import { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+
+import './globals.css'
 import Navbar from '@dabaz/components/sections/Navbar'
 import Footer from '@dabaz/components/sections/Footer'
 
@@ -64,13 +66,15 @@ export const metadata: Metadata = {
   },
 }
 
+const inter = Inter({ subsets: ['latin'] })
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='text-black bg-white dark:text-white dark:bg-[#111010]'>
+    <html lang="en" className={inter.className}>
       <body className='antialiased max-w-4xl mb-8 flex flex-col md:flex-row mx-4 mt-8 md:mt-16 lg:mt-24 lg:mx-auto'>
         <Navbar />
         <main className="flex-auto min-w-0 flex flex-col px-2 md:px-0">
