@@ -5,7 +5,6 @@ export default function HomeLinks () {
   return (
     <div>
       <ul className="flex flex-row mt-6 space-x-6 space-y-2 md:space-y-0 font-sm text-neutral-500">
-        
         <li className="">
           <a
             className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"

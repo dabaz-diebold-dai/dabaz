@@ -26,7 +26,7 @@ export default function Home() {
         <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl dark:text-neutral-50">
           DabAZ / Diebold Dai
         </h1>
-        <h1 className="mt-2 font-display text-xl font-medium tracking-tight text-neutral-700 dark:text-neutral-300 [text-wrap:balance] sm:text-2xl">
+        <h1 className="font-display text-xl font-medium tracking-tight text-neutral-700 dark:text-neutral-300 [text-wrap:balance] sm:text-2xl">
           Freelancer
         </h1>
         <HomeLinks />

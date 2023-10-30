@@ -6,16 +6,17 @@ import Link from 'next/link';
 import { LayoutGroup, motion } from 'framer-motion';
 
 import { navItems } from '@dabaz/components/Data';
+import Footer from './Footer';
 
 export default function Navbar() {
   let pathname = usePathname() || '/';
 
   return (
-    <aside className="md:w-[6rem] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0">
-      <div className="lg:sticky lg:top-20">
+    <aside className="md:w-[6rem] md:flex-shrink-0 md:mx-0 md:px-0">
+      <div className="md:sticky md:top-16 lg:top-20">
         <LayoutGroup>
           <nav
-            className="flex flex-row md:flex-col items-start relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+            className="flex flex-row md:flex-col items-start relative px-0 md:px-5 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
             id="nav"
           >
             <div className="flex flex-row md:flex-col space-x-0 pr-10 mb-2 mt-2 md:mt-0">

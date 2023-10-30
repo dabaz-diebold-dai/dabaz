@@ -2,7 +2,7 @@ import { softwareStack, physicalStack } from "@dabaz/components/Data"
 
 export default function StackGallery() {
   return (
-    <div className="bg-white py-6">
+    <div className="bg-white pt-6">
       <div className="mx-auto grid max-w-7xl gap-x-6 gap-y-6 xl:grid-cols-3">
       <div className="max-w-2xl">
           <h2 className="text-xl font-medium tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-2xl">Software</h2>
