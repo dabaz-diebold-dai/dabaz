@@ -1,3 +1,5 @@
+import { Metadata } from 'next'
+
 const posts = [
   {
     name: "What’s new in iOS 17 Developer Beta?",
@@ -6,12 +8,73 @@ const posts = [
   },
 ]
 
+export const metadata: Metadata = {
+  metadataBase: new URL('https://www.dabaz.me/blog'),
+  title: {
+    default: 'Blog',
+    template: '%s | DabAZ'
+  },
+  description: 'Learn what DabAZ loves and writes about.',
+
+  alternates: {
+    canonical: '/blog',
+  },
+
+  openGraph: {
+    title: 'Blog | DabAZ',
+    description: "Delve into DabAZ&rsquo;s exlorations!",
+    url: 'https://www.dabaz.me/blog',
+    siteName: 'DabAZ',
+    images: [
+      {
+        url: 'https://www.dabaz.me/og.png',
+        width: 1920,
+        height: 1280,
+        alt: "DabAZ's blog",
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+
+  icons: {
+    icon: '/icons/icon.png',
+    shortcut: '/icons/shortcut-icon.png',
+    apple: '/icons/apple-icon.png',
+  },
+
+  manifest: 'https://www.dabaz.me/manifest.json',
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Blog | DabAZ',
+    description: "Delve into DabAZ&rsquo;s exlorations!",
+    creator: '@dabaz_official',
+    images: {
+      url: 'https://www.dabaz.me/twitter-image.png',
+      alt: "DabAZ's blog",
+    },
+  },
+}
+
 export default function Blog() {
   return (
     <main className="w-full flex-auto">
       <div className="max-w-3xl">
         <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl">
-          My personal blog 📒
+          Blog
         </h1>
         <p className="mt-6 text-lg text-neutral-700">
           Delve into my explorations!
