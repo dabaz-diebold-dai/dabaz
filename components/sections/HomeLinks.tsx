@@ -1,13 +1,14 @@
-import { XIcon } from "@dabaz/components/Icons";
+import { GitHubIcon, XIcon } from "@dabaz/components/Icons";
 import ArrowIcon from "@dabaz/components/Icons";
 
 export default function HomeLinks () {
   return (
     <div>
-      <ul className="flex flex-col md:flex-row mt-6 space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
+      <ul className="flex flex-row mt-6 space-x-6 space-y-2 md:space-y-0 font-sm text-neutral-500">
+        
         <li className="">
           <a
-            className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
+            className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
             rel="noopener noreferrer"
             target="_blank"
             href="https://twitter.com/dabaz_official"
@@ -22,8 +23,7 @@ export default function HomeLinks () {
             target="_blank"
             href="https://github.com/dabaz-official"
           >
-            <ArrowIcon />
-            <p className="h-7 ml-2">Follow me on GitHub</p>
+            <GitHubIcon />
           </a>
         </li>
       </ul>
