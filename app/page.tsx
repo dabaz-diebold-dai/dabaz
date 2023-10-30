@@ -1,6 +1,5 @@
 import Gallery from "@dabaz/components/sections/Gallery";
 import HomeLinks from "@dabaz/components/sections/HomeLinks";
-import Navbar from "@dabaz/components/sections/Navbar";
 
 function ArrowIcon() {
   return (

@@ -12,14 +12,11 @@ export const metadata: Metadata = {
 
   alternates: {
     canonical: '/',
-    languages: {
-      'zh-CN': '/zh-CN',
-    }
   },
 
   openGraph: {
-    title: 'DabAZ',
-    description: 'About DabAZ',
+    title: 'Stack | DabAZ',
+    description: 'About what tech DabAZ is currently using.',
     url: 'https://www.dabaz.me/stack',
     siteName: 'DabAZ',
     images: [
@@ -27,7 +24,7 @@ export const metadata: Metadata = {
         url: 'https://www.dabaz.me/og.png',
         width: 1920,
         height: 1280,
-        alt: 'About DabAZ',
+        alt: 'About what tech DabAZ is currently using.',
       },
     ],
     locale: 'en_US',
@@ -56,12 +53,12 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'DabAZ',
-    description: 'About DabAZ',
+    title: 'Stack | DabAZ',
+    description: 'About what tech DabAZ is currently using.',
     creator: '@dabaz_official',
     images: {
       url: 'https://www.dabaz.me/twitter-image.png',
-      alt: 'About DabAZ',
+      alt: 'About what tech DabAZ is currently using.',
     },
   },
 }

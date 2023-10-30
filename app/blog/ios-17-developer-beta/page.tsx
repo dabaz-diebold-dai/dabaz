@@ -1,10 +1,8 @@
-import Navbar from "@dabaz/components/sections/Navbar";
 import Image from "next/image";
 
 export default function IOS17() {
   return (
     <main className="w-full flex-auto">
-      <Navbar />
       <div className="max-w-3xl">
         <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl">
           What&rsquo;s new in iOS 17 Developer Beta?

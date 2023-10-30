@@ -1,5 +1,3 @@
-import Navbar from "@dabaz/components/sections/Navbar";
-
 const posts = [
   {
     name: "What’s new in iOS 17 Developer Beta?",

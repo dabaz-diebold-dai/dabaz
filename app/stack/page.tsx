@@ -1,8 +1,3 @@
-import Image from "next/image";
-
-import Navbar from "@dabaz/components/sections/Navbar";
-import Arc from "@dabaz/public/images/uses/arc.png"
-import ChatGPT from "@dabaz/public/images/uses/chatgpt.png"
 import StackGallery from "@dabaz/components/sections/StackGallery";
 
 export default function Stack() {
