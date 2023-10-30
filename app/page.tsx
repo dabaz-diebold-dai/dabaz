@@ -22,14 +22,17 @@ export default function Home() {
   return (
     <main className="w-full flex-auto">
       <div className="max-w-3xl">
+        <Gallery />
         <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl dark:text-neutral-50">
-          Hey, I am DabAZ 👋
+          DabAZ / Diebold Dai
         </h1>
+        <h1 className="mt-2 font-display text-xl font-medium tracking-tight text-neutral-700 dark:text-neutral-300 [text-wrap:balance] sm:text-2xl">
+          Freelancer
+        </h1>
+        <HomeLinks />
         <p className="mt-6 text-lg text-neutral-700 dark:text-neutral-300">
           I’m an ethical hacker, musician, designer, and a frontend development enthusiast. My journey through the digital realm is fueled by a blend of creativity, technical acumen, and a perpetual desire for learning.
         </p>
-        <Gallery />
-        <HomeLinks />
         <p className="mt-4 text-lg text-neutral-700 dark:text-neutral-300">
           In the cybersecurity domain, I operate as an ethical hacker, assisting organizations in fortifying their defenses and ensuring their digital assets remain unbreachable. The dance between code and security intrigues me, and each project I undertake is a step towards making the digital world a safer place.
         </p>
@@ -94,7 +97,7 @@ export default function Home() {
         <p className="mt-4 text-lg text-neutral-700 dark:text-neutral-300">
           My future endeavors include diving deeper into the intersections of my interests—perhaps finding the synergy between music, design, and technology to create something truly unique and impactful.
         </p>
-        <p className="mt-4 mb-12 text-lg text-neutral-700 dark:text-neutral-300">
+        <p className="mt-4 text-lg text-neutral-700 dark:text-neutral-300">
           Feel free to connect with me at <a href="mailto:dabazofficial@gmail.com" className="underline hover:text-neutral-900 dark:hover:text-neutral-100 transition-all">dabazofficial@gmail.com</a> or on my <a href="https://twitter.com/dabaz_official" className="underline hover:text-neutral-900 dark:hover:text-neutral-100 transition-all" rel="noopener noreferrer" target="_blank">X</a>. I am always up for engaging discussions on cybersecurity, design innovations, musical collaborations, or the exciting world of front-end development.
         </p>
       </div>
