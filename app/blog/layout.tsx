@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 import Navbar from '@dabaz/components/sections/Navbar'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.dabaz.me'),
+  metadataBase: new URL('https://www.dabaz.me/blog'),
   title: {
     default: 'Blog',
     template: '%s | DabAZ'
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: 'Learn what DabAZ loves and writes about.',
 
   alternates: {
-    canonical: '/',
+    canonical: '/blog',
   },
 
   openGraph: {

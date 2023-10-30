@@ -21,39 +21,6 @@ const navItems = {
   },
 }
 
-function Logo() {
-  return (
-    <Link aria-label="DabAZ" href="/">
-      <motion.svg
-        className="text-black dark:text-white h-[25px] md:h-[37px]"
-        width="50"
-        height="50"
-        viewBox="0 0 700 700"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <motion.path
-          initial={{
-            opacity: 0,
-            pathLength: 0,
-          }}
-          animate={{
-            opacity: 1,
-            pathLength: 1,
-          }}
-          transition={{
-            duration: 0.5,
-            type: 'spring',
-            stiffness: 50,
-          }}
-          d="M350 700.001C276.088 700.001 204.072 676.601 144.275 633.156C84.4786 589.711 39.9706 528.453 17.1302 458.156C-5.71008 387.862 -5.71008 312.139 17.1302 241.844C39.9706 171.549 84.4786 110.289 144.275 66.8442C204.072 23.3992 276.088 -1.51994e-05 350 0C423.912 1.51994e-05 495.928 23.3993 555.725 66.8442C615.522 110.289 660.031 171.549 682.87 241.844C705.71 312.139 705.71 387.862 682.87 458.156L350 350V700.001Z"
-          stroke="currentColor"
-        />
-      </motion.svg>
-    </Link>
-  );
-}
-
 export default function Navbar() {
   let pathname = usePathname() || '/';
 
@@ -69,7 +36,7 @@ export default function Navbar() {
               {Object.entries(navItems).map(([path, { name, Icon }]) => {
                 const isActive = path === pathname;
                 return (
-                  <Link
+                  <a
                     key={path}
                     href={path}
                     className={clsx(
@@ -94,7 +61,7 @@ export default function Navbar() {
                         />
                       ) : null}
                     </span>
-                  </Link>
+                  </a>
                 );
               })}
             </div>
