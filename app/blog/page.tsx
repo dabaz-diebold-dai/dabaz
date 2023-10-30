@@ -73,7 +73,7 @@ export default function Blog() {
   return (
     <main className="w-full flex-auto">
       <div className="max-w-3xl">
-        <h1 className="font-display text-3xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl">
+        <h1 className="font-display text-2xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-3xl">
           Blog
         </h1>
         <p className="mt-6 text-lg text-neutral-700">
