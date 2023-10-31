@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="sticky md:top-16 lg:top-20">
         <LayoutGroup>
           <nav
-            className="flex flex-row md:flex-col items-center justify-center relative px-0 md:px-5 pb-0 fade md:overflow-auto scroll-pr-6 md:relative border border-neutral-200 md:border-none bg-white mt-5"
+            className="flex flex-row md:flex-col items-center justify-center relative px-0 md:px-5 pb-0 fade md:overflow-auto scroll-pr-6 md:relative border border-neutral-200 md:border-none bg-white mt-[1.4rem]"
             id="nav"
           >
             <div className="flex flex-row md:flex-col space-x-4 md:space-x-0 mb-2 mt-2 md:mt-0 md:mb-0">
