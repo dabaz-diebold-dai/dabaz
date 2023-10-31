@@ -11,6 +11,10 @@ export const navItems = {
     name: 'Stack',
     Icon: Square3Stack3DIcon,
   },
+  '/work': {
+    name: 'Work',
+    Icon: RectangleStackIcon,
+  },
   '/blog': {
     name: 'Blog',
     Icon: PencilIcon,
