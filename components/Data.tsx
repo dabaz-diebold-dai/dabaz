@@ -1,4 +1,4 @@
-import { EnvelopeIcon, HomeIcon, PencilIcon, RectangleStackIcon, ShoppingBagIcon, Squares2X2Icon, UserIcon } from '@heroicons/react/24/outline';
+import { EnvelopeIcon, HomeIcon, PencilIcon, RectangleStackIcon, ShoppingBagIcon, Squares2X2Icon, UserIcon, Square3Stack3DIcon } from '@heroicons/react/24/outline';
 
 import { GitHubIcon, InstagramIcon, SpotifyIcon, ThreadsIcon, TikTokIcon, XIcon } from '@dabaz/components/Icons';
 
@@ -9,7 +9,7 @@ export const navItems = {
   },
   '/stack': {
     name: 'Stack',
-    Icon: RectangleStackIcon,
+    Icon: Square3Stack3DIcon,
   },
   '/blog': {
     name: 'Blog',
