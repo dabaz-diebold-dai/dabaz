@@ -7,6 +7,7 @@ export default function Links() {
         <div className="mx-auto mt-6 grid max-w-lg grid-cols-4 items-center gap-y-10 sm:max-w-xl sm:grid-cols-6 lg:mx-0 lg:max-w-none">
           {platforms.map((platform) => (
             <a
+              key={platform.name}
               className="items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors h-8 w-auto"
               rel="noopener noreferrer"
               target="_blank"
