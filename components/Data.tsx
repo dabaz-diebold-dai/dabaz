@@ -161,6 +161,11 @@ export const platforms = [
     href: 'https://instagram.com/dabaz_official',
   },
   {
+    name: 'Threads',
+    icon: ThreadsIcon,
+    href: 'https://www.threads.net/@dabaz_official',
+  },
+  {
     name: 'Spotify',
     icon: SpotifyIcon,
     href: 'https://open.spotify.com/artist/1KmtWPNNBJw4spLrQkPrXQ',
@@ -175,9 +180,4 @@ export const platforms = [
     icon: GitHubIcon,
     href: 'https://github.com/dabaz-official',
   },
-  {
-    name: 'Threads',
-    icon: ThreadsIcon,
-    href: 'https://www.threads.net/@dabaz_official',
-  }
 ]
