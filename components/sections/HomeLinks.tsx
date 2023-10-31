@@ -1,30 +1,22 @@
-import { GitHubIcon, XIcon } from "@dabaz/components/Icons";
 import ArrowIcon from "@dabaz/components/Icons";
+import { platforms } from "@dabaz/components/Data";
 
 export default function HomeLinks () {
   return (
-    <div>
-      <ul className="flex flex-row mt-6 space-x-6 space-y-2 md:space-y-0 font-sm text-neutral-500">
-        <li className="">
-          <a
-            className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://twitter.com/dabaz_official"
-          >
-            <XIcon />
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-all"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/dabaz-official"
-          >
-            <GitHubIcon />
-          </a>
-        </li>
+    <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <ul className="mt-6 grid grid-cols-2 items-center justify-center gap-x-2 gap-y-4 sm:gap-x-2 mx-auto font-sm text-neutral-500">
+        {platforms.map((platform) => (
+          <li key={platform.name}>
+            <a
+              className="items-center hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+              rel="noopener noreferrer"
+              target="_blank"
+              href={platform.href}
+            >
+              <platform.icon />
+            </a>
+          </li>
+        ))}
       </ul>
       <ul className="flex flex-col mt-2 md:flex-row space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
         <li>

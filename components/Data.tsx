@@ -1,6 +1,6 @@
 import { EnvelopeIcon, HomeIcon, PencilIcon, RectangleStackIcon, ShoppingBagIcon, Squares2X2Icon, UserIcon } from '@heroicons/react/24/outline';
 
-import { XIcon } from '@dabaz/components/Icons';
+import { GitHubIcon, InstagramIcon, SpotifyIcon, ThreadsIcon, TikTokIcon, XIcon } from '@dabaz/components/Icons';
 
 export const navItems = {
   '/': {
@@ -155,5 +155,29 @@ export const platforms = [
     icon: XIcon,
     href: 'https://x.com/dabaz_official',
   },
-  
+  {
+    name: 'Instagram',
+    icon: InstagramIcon,
+    href: 'https://instagram.com/dabaz_official',
+  },
+  {
+    name: 'Spotify',
+    icon: SpotifyIcon,
+    href: 'https://open.spotify.com/artist/1KmtWPNNBJw4spLrQkPrXQ',
+  },
+  {
+    name: 'TikTok',
+    icon: TikTokIcon,
+    href: 'https://tiktok.com/@dabaz_official',
+  },
+  {
+    name: 'GitHub',
+    icon: GitHubIcon,
+    href: 'https://github.com/dabaz-official',
+  },
+  {
+    name: 'Threads',
+    icon: ThreadsIcon,
+    href: 'https://www.threads.net/@dabaz_official',
+  }
 ]

@@ -2,6 +2,7 @@ import { EnvelopeIcon, Square2StackIcon } from "@heroicons/react/24/outline"
 
 import HomeLinks from "@dabaz/components/sections/HomeLinks"
 import CopyButton from "@dabaz/components/ui/copy-button"
+import Links from "./Links"
 
 export default function HeroHeader() {
   return (
@@ -20,7 +21,7 @@ export default function HeroHeader() {
             <p className="mt-1 text-lg sm:text-xl leading-8 text-neutral-700 dark:text-neutral-300 text-center">
               Freelancer
             </p>
-            <HomeLinks />
+            <Links />
             <div className="mt-6 flex items-center justify-center mx-auto gap-x-4">
               <a
                 href="mailto:dabazofficial@gmail.com"
