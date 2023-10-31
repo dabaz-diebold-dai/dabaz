@@ -4,22 +4,35 @@ import clsx from 'clsx';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { LayoutGroup, motion } from 'framer-motion';
+import { EnvelopeIcon, HomeIcon, PencilIcon, RectangleStackIcon, ShoppingBagIcon, Squares2X2Icon, UserIcon } from '@heroicons/react/24/outline';
 
-import { navItems } from '@dabaz/components/Data';
-import Footer from './Footer';
+export const navItems = {
+  '/': {
+    name: 'Home',
+    Icon: HomeIcon,
+  },
+  '/stack': {
+    name: 'Stack',
+    Icon: RectangleStackIcon,
+  },
+  '/blog': {
+    name: 'Blog',
+    Icon: PencilIcon,
+  },
+}
 
 export default function Navbar() {
   let pathname = usePathname() || '/';
 
   return (
-    <aside className="md:w-[6rem] md:flex-shrink-0 md:mx-0 md:px-0">
-      <div className="md:sticky md:top-16 lg:top-20">
+    <aside className="fixed inset-x-0 bottom-0 shadow-lg md:inset-0 h-20 bg-white z-50 md:bg-transparent md:z-0 md:relative md:h-0 md:w-[6rem] md:flex-shrink-0 md:mx-0 md:px-0">
+      <div className="sticky md:top-16 lg:top-20">
         <LayoutGroup>
           <nav
-            className="flex flex-row md:flex-col items-start relative px-0 md:px-5 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+            className="flex flex-row md:flex-col items-center justify-center relative px-0 md:px-5 pb-0 fade md:overflow-auto scroll-pr-6 md:relative border border-neutral-200 md:border-none"
             id="nav"
           >
-            <div className="flex flex-row md:flex-col space-x-0 pr-10 mb-2 mt-2 md:mt-0">
+            <div className="flex flex-row md:flex-col space-x-4 md:space-x-0 mb-4 mt-4 md:mt-0 md:mb-0">
               {Object.entries(navItems).map(([path, { name, Icon }]) => {
                 const isActive = path === pathname;
                 return (
@@ -35,7 +48,7 @@ export default function Navbar() {
                     )}
                   >
                     <span className="relative px-2 py-2 items-center justify-center mx-auto">
-                      <Icon className="h-6 w-6" />
+                      <Icon className="h-8 w-8" />
                       {path === pathname ? (
                         <motion.div
                           className="absolute inset-0 bg-neutral-100 dark:bg-neutral-800 rounded-md z-[-1]"
