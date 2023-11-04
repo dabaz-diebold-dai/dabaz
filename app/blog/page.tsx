@@ -37,26 +37,6 @@ export const metadata: Metadata = {
     type: 'website',
   },
 
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-
-  icons: {
-    icon: '/icons/icon.png',
-    shortcut: '/icons/shortcut-icon.png',
-    apple: '/icons/apple-icon.png',
-  },
-
-  manifest: 'https://www.dabaz.me/manifest.json',
-
   twitter: {
     card: 'summary_large_image',
     title: 'Blog | DabAZ',

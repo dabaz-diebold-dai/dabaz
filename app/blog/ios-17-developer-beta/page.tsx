@@ -1,4 +1,46 @@
+import { Metadata } from 'next'
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://www.dabaz.me/blog/ios-17-developer-beta'),
+  title: {
+    default: 'What’s new in iOS 17 Developer Beta?',
+    template: '%s | DabAZ'
+  },
+  description: 'Apple just rolled out the iOS 17 Developer Beta, which I immediately installed and used. Let’s take a look at the new features of iOS 17 that I experienced during my usage.',
+
+  alternates: {
+    canonical: '/blog/ios-17-developer-beta',
+  },
+
+  openGraph: {
+    title: 'What’s new in iOS 17 Developer Beta? | DabAZ',
+    description: 'Apple just rolled out the iOS 17 Developer Beta, which I immediately installed and used. Let’s take a look at the new features of iOS 17 that I experienced during my usage.',
+    url: 'https://www.dabaz.me/blog/ios-17-developer-beta',
+    siteName: 'DabAZ',
+    images: [
+      {
+        url: 'https://www.dabaz.me/_next/image?url=%2Fimages%2Fblog%2Fios-17-developer-beta%2Fios-17-preview.png&w=3840&q=75',
+        width: 1200,
+        height: 630,
+        alt: 'iOS 17 Preview',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What’s new in iOS 17 Developer Beta? | DabAZ',
+    description: 'Apple just rolled out the iOS 17 Developer Beta, which I immediately installed and used. Let’s take a look at the new features of iOS 17 that I experienced during my usage.',
+    creator: '@dabaz_official',
+    images: {
+      url: 'https://www.dabaz.me/_next/image?url=%2Fimages%2Fblog%2Fios-17-developer-beta%2Fios-17-preview.png&w=3840&q=75',
+      alt: 'iOS 17 Preview',
+    },
+  },
+}
 
 export default function IOS17() {
   return (
