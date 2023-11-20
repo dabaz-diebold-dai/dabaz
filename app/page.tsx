@@ -90,7 +90,7 @@ export default function Home() {
           My future endeavors include diving deeper into the intersections of my interests—perhaps finding the synergy between music, design, and technology to create something truly unique and impactful.
         </p>
         <p className="mt-4 text-lg text-neutral-700 dark:text-neutral-300">
-          Feel free to connect with me at <a href="mailto:dabazofficial@gmail.com" className="underline hover:text-neutral-900 dark:hover:text-neutral-100 transition-all">dabazofficial@gmail.com</a> or on my <a href="https://twitter.com/dabaz_official" className="underline hover:text-neutral-900 dark:hover:text-neutral-100 transition-all" rel="noopener noreferrer" target="_blank">X</a>. I am always up for engaging discussions on cybersecurity, design innovations, musical collaborations, or the exciting world of front-end development.
+          Feel free to connect with me at <a href="mailto:dabaz@dabaz.me" className="underline hover:text-neutral-900 dark:hover:text-neutral-100 transition-all">dabaz@dabaz.me</a> or on my <a href="https://twitter.com/dabaz_official" className="underline hover:text-neutral-900 dark:hover:text-neutral-100 transition-all" rel="noopener noreferrer" target="_blank">X</a>. I am always up for engaging discussions on cybersecurity, design innovations, musical collaborations, or the exciting world of front-end development.
         </p>
       </div>
     </main>
